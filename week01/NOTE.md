@@ -19,9 +19,6 @@
 
 # 如何设计“狗咬人” — 行为改变状态
 
-Created: Jul 26, 2020 10:48 PM
-Tags: read-notes, 重学前端（视频）
-
 class Dog {
 
 bite(human) { ... }
