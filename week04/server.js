@@ -11,26 +11,37 @@ http.createServer((request, response) => {
         console.log(body);
         response.writeHead(200, {'Content-Type': 'text/html'});
         response.end(
-`<html maaa=a >
+`<html lang=en>
 <head>
+    <title>Document</title>
     <style>
-body div #myid{
-    width: 100px;
-    background-color: #ff5000;
-}
-body div img{
-    width:30px;
-    background-color: #ff1111;
-}
+    #container{
+        display: flex;
+        width: 500px;
+        height: 300px;
+        background-color: rgb(255,255,255);
+    }
+    #container #flex1 {
+        width: 300px;
+        height: 100px;
+        background-color: rgb(255,0,0);
+    }
+    #container #flex2 {
+        flex: 1;
+        height: 300px;
+        background-color: rgb(0,255,0);
+    }
     </style>
 </head>
 <body>
-    <div>
-        <img id="myid"/>
-        <img />
+    <div id="container">
+    <div id="flex1">1111</div>
+    <div id="flex2">2222</div>
     </div>
 </body>
-`);
+</html>
+`
+);
     });
 }).listen(8088);
 

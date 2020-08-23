@@ -206,10 +206,9 @@ void async function() {
         }
     });
 
-    let response = await request.send();
-
-    // In reality, we should throw response.body chunk by chunk into the parser asynchronously
-    let dom = parser.parseHTML(response.body);
-
-    // console.log(response);
+    const response = await request.send()
+    let dom = parser.parseHTML(response.body)
+    let viewport = images(800, 600)
+    render(viewport, dom)
+    viewport.save("viewport.jpg")
 }();
