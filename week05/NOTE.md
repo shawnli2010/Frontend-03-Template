@@ -32,7 +32,7 @@
 
     ![css-specificity-examples/css_specificity_example_1.png](css-specificity-examples/css_specificity_example_1.png)
 
-    ![Re-learn%20CSS%207de2759829384ff398bca1fcc0e82f67/css_specificity_example_2.png](Re-learn%20CSS%207de2759829384ff398bca1fcc0e82f67/css_specificity_example_2.png)
+    ![css-specificity-examples/css_specificity_example_2.png](css-specificity-examples/css_specificity_example_2.png)
 
     ![css-specificity-examples/css_specificity_example_3.png](css-specificity-examples/css_specificity_example_3.png)
 
