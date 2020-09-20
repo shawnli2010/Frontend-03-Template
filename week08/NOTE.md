@@ -1,1 +1,4 @@
-学习笔记
+## Javascript async API
+- callback
+- Promise
+- async / await
